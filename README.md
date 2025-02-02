@@ -34,3 +34,36 @@ npm start
 ## Running notebook
 
 The notebook can be ran with services such as Colab or Kaggle or locally with Jupyter notebook. The necessary dependencies are listed at the top of the file
+
+
+## API Endpoint
+
+
+POST /analyze
+
+
+Request
+
+Headers:
+
+```json
+Content-Type: application/json
+```
+
+Body:
+
+```json
+{
+  "text": "Your input text here",
+  "model": "custom" | "llama"
+}
+```
+
+Response
+
+```
+{
+  "sentiment": "positive" | "negative",
+  "confidence": 0.95
+}
+```
