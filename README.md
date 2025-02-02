@@ -31,4 +31,6 @@ Run the backend
 npm start
 ```
 
+## Running notebook
+
 The notebook can be ran with services such as Colab or Kaggle or locally with Jupyter notebook. The necessary dependencies are listed at the top of the file
