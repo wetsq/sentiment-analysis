@@ -1,0 +1,7 @@
+POST http://localhost:3001/analyze
+Content-Type: application/json
+
+{
+  "text": "I loved this",
+  "model": "custom"
+}
